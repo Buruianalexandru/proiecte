@@ -1,0 +1,58 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9effb;
+}
+.contactus {
+    background: #fff;
+    border-radius: 50px;
+    
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 50px;
+    width: 200px;
+}
+.application-container {
+    background: #fff;
+    border-radius: 50px;
+  
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px;
+    width: 200px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+
+
+.logo{
+    width: 200px;
+    align-items: center;
+    height: auto;
+}

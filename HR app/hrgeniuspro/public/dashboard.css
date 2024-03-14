@@ -1,0 +1,76 @@
+
+
+.calendar {
+  background: #fff;
+  border-radius: 80px;
+  align-items: center;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 40px;
+  width: 850px;
+
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.calendar-day {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.day-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.day-events {
+  margin-top: 5px;
+}
+.organigrama{
+  border-radius: 50px;
+  width: 600px;
+  align-items: center;
+}
+h1 {
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.request-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.request-item:hover {
+  transform: scale(1.05);
+}
+
+.reqname, .reqemail, .reqmes {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
