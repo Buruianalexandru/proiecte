@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /* Se stabilește fontul folosit pentru text */
+    background-color: #f7f9fc;
+    /* Se stabilește culoarea de fundal a întregii pagini */
+    color: #333;
+    /* Se stabilește culoarea textului */
+    margin: 0;
+    /* Se elimină marginile implicite */
+    display: flex;
+    /* Se setează afișarea ca un container flexibil */
+    justify-content: center;
+    /* Se aliniază conținutul pe axa orizontală în centru */
+    align-items: center;
+    /* Se aliniază conținutul pe axa verticală în centru */
+    height: 100vh;
+    /* Se setează înălțimea la 100% din înălțimea ecranului */
+}
+
+/* Stilurile pentru containerul principal */
+.container {
+    background-color: #fff;
+    /* Se stabilește culoarea de fundal a containerului */
+    border-radius: 8px;
+    /* Se roteste colțurile containerului */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Se adaugă o umbră subtilă containerului */
+    padding: 20px;
+    /* Se adaugă spațiu intern în container */
+    max-width: 500px;
+    /* Se stabilește lățimea maximă a containerului */
+    width: 100%;
+    /* Se stabilește lățimea la 100% pentru a se extinde pe întreaga lățime a ecranului */
+}
+
+/* Stilurile pentru titlurile h1 și h2 */
+h1,
+h2 {
+    text-align: center;
+    /* Se aliniază titlurile la centru */
+    color: #4A90E2;
+    /* Se stabilește culoarea titlurilor */
+}
